@@ -36,6 +36,8 @@ class ViewController: UIViewController, GADBannerViewDelegate {
             }
             
         }
+        
+        print("debug")
 
         
         if UserDefaults.standard.value(forKey: "team1BackgroundColour") as? String == nil {
