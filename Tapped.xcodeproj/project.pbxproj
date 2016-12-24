@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30668781E06B1CF00FA77B0 /* Ninja.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3803EBE1DFF32160021603D /* Ninja.ttf */; };
+		A30668791E06B1CF00FA77B0 /* Karate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3803EBD1DFF31E00021603D /* Karate.ttf */; };
+		A306687E1E06C5C400FA77B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A306687D1E06C5C400FA77B0 /* StoreKit.framework */; };
+		A30668801E06C93A00FA77B0 /* TappedProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306687F1E06C93A00FA77B0 /* TappedProducts.swift */; };
+		A30668821E06CA4E00FA77B0 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30668811E06CA4E00FA77B0 /* IAPHelper.swift */; };
+		A30668841E07046400FA77B0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30668831E07046400FA77B0 /* MasterViewController.swift */; };
+		A30668861E0704D100FA77B0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30668851E0704D100FA77B0 /* ProductCell.swift */; };
+		A331F6A81E0EE17100750F57 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A331F6A71E0EE17100750F57 /* TutorialViewController.swift */; };
+		A33693871E0B16CD00D51D80 /* Pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33693861E0B16CD00D51D80 /* Pop.mp3 */; };
+		A37B009A1E0BFF8D00D2EC08 /* GSAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B00991E0BFF8D00D2EC08 /* GSAudio.swift */; };
 		A3803E8D1DFF2C600021603D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3803E8C1DFF2C600021603D /* AppDelegate.swift */; };
 		A3803E8F1DFF2C600021603D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3803E8E1DFF2C600021603D /* ViewController.swift */; };
 		A3803E921DFF2C600021603D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3803E901DFF2C600021603D /* Main.storyboard */; };
@@ -14,6 +24,13 @@
 		A3803E971DFF2C600021603D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3803E951DFF2C600021603D /* LaunchScreen.storyboard */; };
 		A3803EA21DFF2C600021603D /* TappedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3803EA11DFF2C600021603D /* TappedTests.swift */; };
 		A3803EAD1DFF2C600021603D /* TappedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3803EAC1DFF2C600021603D /* TappedUITests.swift */; };
+		A3803EC01DFF35410021603D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3803EBF1DFF35410021603D /* GoogleMobileAds.framework */; };
+		A3803EC41DFF38F30021603D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3803EC31DFF38F30021603D /* GoogleService-Info.plist */; };
+		A3803EC61DFF45A20021603D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3803EC51DFF45A10021603D /* GameViewController.swift */; };
+		A38404AC1E006FE8009D4619 /* TappedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38404AB1E006FE7009D4619 /* TappedViewController.swift */; };
+		A38404AE1E009EB4009D4619 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38404AD1E009EB4009D4619 /* SettingsViewController.swift */; };
+		A396BC2D1E0ABCBB00895D34 /* Soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A396BC2C1E0ABCBB00895D34 /* Soundtrack.mp3 */; };
+		A3D60AE41E05BB9100115A6B /* WinScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D60AE31E05BB9000115A6B /* WinScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A306687D1E06C5C400FA77B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A306687F1E06C93A00FA77B0 /* TappedProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappedProducts.swift; sourceTree = "<group>"; };
+		A30668811E06CA4E00FA77B0 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		A30668831E07046400FA77B0 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A30668851E0704D100FA77B0 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A331F6A71E0EE17100750F57 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		A33693861E0B16CD00D51D80 /* Pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pop.mp3; sourceTree = "<group>"; };
+		A37B00991E0BFF8D00D2EC08 /* GSAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSAudio.swift; sourceTree = "<group>"; };
 		A3803E891DFF2C600021603D /* Tapped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3803E8C1DFF2C600021603D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3803E8E1DFF2C600021603D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3803E8E1DFF2C600021603D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		A3803E911DFF2C600021603D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3803E931DFF2C600021603D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3803E961DFF2C600021603D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +72,15 @@
 		A3803EA81DFF2C600021603D /* TappedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3803EAC1DFF2C600021603D /* TappedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedUITests.swift; sourceTree = "<group>"; };
 		A3803EAE1DFF2C600021603D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3803EBD1DFF31E00021603D /* Karate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Karate.ttf; sourceTree = "<group>"; };
+		A3803EBE1DFF32160021603D /* Ninja.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ninja.ttf; sourceTree = "<group>"; };
+		A3803EBF1DFF35410021603D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		A3803EC31DFF38F30021603D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3803EC51DFF45A10021603D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		A38404AB1E006FE7009D4619 /* TappedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappedViewController.swift; sourceTree = "<group>"; };
+		A38404AD1E009EB4009D4619 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A396BC2C1E0ABCBB00895D34 /* Soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Soundtrack.mp3; sourceTree = "<group>"; };
+		A3D60AE31E05BB9000115A6B /* WinScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3803EC01DFF35410021603D /* GoogleMobileAds.framework in Frameworks */,
+				A306687E1E06C5C400FA77B0 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +110,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A306687C1E06C5C300FA77B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A306687D1E06C5C400FA77B0 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33693881E0B16D200D51D80 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A396BC2C1E0ABCBB00895D34 /* Soundtrack.mp3 */,
+				A33693861E0B16CD00D51D80 /* Pop.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		A37B009B1E0C101300D2EC08 /* In-app Purchases */ = {
+			isa = PBXGroup;
+			children = (
+				A30668831E07046400FA77B0 /* MasterViewController.swift */,
+				A30668851E0704D100FA77B0 /* ProductCell.swift */,
+				A306687F1E06C93A00FA77B0 /* TappedProducts.swift */,
+				A30668811E06CA4E00FA77B0 /* IAPHelper.swift */,
+			);
+			name = "In-app Purchases";
+			sourceTree = "<group>";
+		};
 		A3803E801DFF2C5F0021603D = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +145,10 @@
 				A3803EA01DFF2C600021603D /* TappedTests */,
 				A3803EAB1DFF2C600021603D /* TappedUITests */,
 				A3803E8A1DFF2C600021603D /* Products */,
+				A306687C1E06C5C300FA77B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A3803E8A1DFF2C600021603D /* Products */ = {
 			isa = PBXGroup;
@@ -97,12 +163,23 @@
 		A3803E8B1DFF2C600021603D /* Tapped */ = {
 			isa = PBXGroup;
 			children = (
-				A3803E8C1DFF2C600021603D /* AppDelegate.swift */,
+				A33693881E0B16D200D51D80 /* Sounds */,
+				A3803EBC1DFF31C80021603D /* Fonts */,
+				A37B009B1E0C101300D2EC08 /* In-app Purchases */,
 				A3803E8E1DFF2C600021603D /* ViewController.swift */,
+				A3803EC51DFF45A10021603D /* GameViewController.swift */,
+				A38404AB1E006FE7009D4619 /* TappedViewController.swift */,
+				A3D60AE31E05BB9000115A6B /* WinScreenViewController.swift */,
+				A38404AD1E009EB4009D4619 /* SettingsViewController.swift */,
+				A331F6A71E0EE17100750F57 /* TutorialViewController.swift */,
+				A37B00991E0BFF8D00D2EC08 /* GSAudio.swift */,
+				A3803E8C1DFF2C600021603D /* AppDelegate.swift */,
 				A3803E901DFF2C600021603D /* Main.storyboard */,
 				A3803E931DFF2C600021603D /* Assets.xcassets */,
 				A3803E951DFF2C600021603D /* LaunchScreen.storyboard */,
 				A3803E981DFF2C600021603D /* Info.plist */,
+				A3803EC31DFF38F30021603D /* GoogleService-Info.plist */,
+				A3803EBF1DFF35410021603D /* GoogleMobileAds.framework */,
 			);
 			path = Tapped;
 			sourceTree = "<group>";
@@ -123,6 +200,15 @@
 				A3803EAE1DFF2C600021603D /* Info.plist */,
 			);
 			path = TappedUITests;
+			sourceTree = "<group>";
+		};
+		A3803EBC1DFF31C80021603D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A3803EBE1DFF32160021603D /* Ninja.ttf */,
+				A3803EBD1DFF31E00021603D /* Karate.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +238,8 @@
 				A3803E991DFF2C600021603D /* Sources */,
 				A3803E9A1DFF2C600021603D /* Frameworks */,
 				A3803E9B1DFF2C600021603D /* Resources */,
+				1E37B9744742847ED3B3D68E /* [CP] Embed Pods Frameworks */,
+				BD099652F2734CC0C0A5EA9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3803EB71DFF2C600021603D /* Build configuration list for PBXNativeTarget "TappedUITests" */;
 			buildPhases = (
+				2C77564B8370D2A07C41BB1A /* [CP] Check Pods Manifest.lock */,
 				A3803EA41DFF2C600021603D /* Sources */,
 				A3803EA51DFF2C600021603D /* Frameworks */,
 				A3803EA61DFF2C600021603D /* Resources */,
+				F01F553676E297D2D5164DE6 /* [CP] Embed Pods Frameworks */,
+				76523C1191E4DCC39AE1E087 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +278,7 @@
 		A3803E811DFF2C5F0021603D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = IdleApps;
@@ -195,6 +287,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 23H556T6TV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					A3803E9C1DFF2C600021603D = {
 						CreatedOnToolsVersion = 8.1;
@@ -235,9 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30668781E06B1CF00FA77B0 /* Ninja.ttf in Resources */,
+				A30668791E06B1CF00FA77B0 /* Karate.ttf in Resources */,
 				A3803E971DFF2C600021603D /* LaunchScreen.storyboard in Resources */,
 				A3803E941DFF2C600021603D /* Assets.xcassets in Resources */,
+				A33693871E0B16CD00D51D80 /* Pop.mp3 in Resources */,
 				A3803E921DFF2C600021603D /* Main.storyboard in Resources */,
+				A396BC2D1E0ABCBB00895D34 /* Soundtrack.mp3 in Resources */,
+				A3803EC41DFF38F30021603D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +359,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E37B9744742847ED3B3D68E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedTests/Pods-TappedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C77564B8370D2A07C41BB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76523C1191E4DCC39AE1E087 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedUITests/Pods-TappedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD099652F2734CC0C0A5EA9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedTests/Pods-TappedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01F553676E297D2D5164DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedUITests/Pods-TappedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3803E851DFF2C600021603D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3803E8F1DFF2C600021603D /* ViewController.swift in Sources */,
+				A30668801E06C93A00FA77B0 /* TappedProducts.swift in Sources */,
+				A3803EC61DFF45A20021603D /* GameViewController.swift in Sources */,
+				A37B009A1E0BFF8D00D2EC08 /* GSAudio.swift in Sources */,
+				A38404AC1E006FE8009D4619 /* TappedViewController.swift in Sources */,
+				A30668821E06CA4E00FA77B0 /* IAPHelper.swift in Sources */,
+				A30668841E07046400FA77B0 /* MasterViewController.swift in Sources */,
+				A3D60AE41E05BB9100115A6B /* WinScreenViewController.swift in Sources */,
+				A30668861E0704D100FA77B0 /* ProductCell.swift in Sources */,
+				A38404AE1E009EB4009D4619 /* SettingsViewController.swift in Sources */,
+				A331F6A81E0EE17100750F57 /* TutorialViewController.swift in Sources */,
 				A3803E8D1DFF2C600021603D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,11 +606,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23H556T6TV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tapped",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tapped/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IdleApps.Tapped;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,11 +626,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23H556T6TV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tapped",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tapped/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IdleApps.Tapped;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +718,7 @@
 				A3803EB31DFF2C600021603D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3803EB41DFF2C600021603D /* Build configuration list for PBXNativeTarget "TappedTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +727,7 @@
 				A3803EB61DFF2C600021603D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3803EB71DFF2C600021603D /* Build configuration list for PBXNativeTarget "TappedUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +736,7 @@
 				A3803EB91DFF2C600021603D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
