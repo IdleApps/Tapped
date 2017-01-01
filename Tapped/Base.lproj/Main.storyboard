@@ -52,7 +52,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compete with your friends to find out who the tap master is" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKf-11-IfI">
-                                        <rect key="frame" x="19" y="64" width="282" height="54"/>
+                                        <rect key="frame" x="19" y="64" width="282" height="55"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -386,10 +386,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voM-9K-TjT">
-                                <rect key="frame" x="164" y="356" width="140" height="40"/>
+                                <rect key="frame" x="164" y="356" width="140" height="39"/>
                                 <color key="backgroundColor" red="0.38823529411764707" green="0.49019607843137253" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="18"/>
-                                <state key="normal" title="Team 2 colour">
+                                <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="16"/>
+                                <state key="normal" title="Player 2 colour">
                                     <color key="titleColor" red="0.99948078389999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -440,8 +440,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtx-sO-LDj">
                                 <rect key="frame" x="16" y="356" width="140" height="40"/>
                                 <color key="backgroundColor" red="0.99948078393936157" green="0.48909413814544678" blue="0.41945236921310425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="18"/>
-                                <state key="normal" title="Team 1 colour">
+                                <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="16"/>
+                                <state key="normal" title="Player 1 colour">
                                     <color key="titleColor" red="0.99948078393936157" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -640,53 +640,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-cc-Ev2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFv-ka-bCb">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
-                                        <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="36"/>
-                                        <color key="textColor" red="0.389198899269104" green="0.48970896005630493" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99948078393936157" green="0.48909413814544678" blue="0.41945236921310425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="JFv-ka-bCb" firstAttribute="top" secondItem="X2E-cc-Ev2" secondAttribute="top" id="LNV-FQ-BLJ"/>
-                                    <constraint firstItem="JFv-ka-bCb" firstAttribute="leading" secondItem="X2E-cc-Ev2" secondAttribute="leading" id="RSa-kZ-o8L"/>
-                                    <constraint firstAttribute="bottom" secondItem="JFv-ka-bCb" secondAttribute="bottom" id="TUO-nk-icq"/>
-                                    <constraint firstAttribute="trailing" secondItem="JFv-ka-bCb" secondAttribute="trailing" id="rM1-OV-PPZ"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPM-1K-h6Z">
-                                <rect key="frame" x="0.0" y="193" width="320" height="193"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmH-kY-0Qg">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
-                                        <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="36"/>
-                                        <color key="textColor" red="0.99948078393936157" green="0.48909413814544678" blue="0.41945236921310425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.389198899269104" green="0.48970896005630493" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="AmH-kY-0Qg" firstAttribute="leading" secondItem="fPM-1K-h6Z" secondAttribute="leading" id="1Fk-Aj-5pD"/>
-                                    <constraint firstItem="AmH-kY-0Qg" firstAttribute="top" secondItem="fPM-1K-h6Z" secondAttribute="top" id="KNt-mQ-Y05"/>
-                                    <constraint firstAttribute="trailing" secondItem="AmH-kY-0Qg" secondAttribute="trailing" id="V1f-GE-1oF"/>
-                                    <constraint firstAttribute="bottom" secondItem="AmH-kY-0Qg" secondAttribute="bottom" id="eWU-AW-MyF"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0G-z7-GE7">
                                 <rect key="frame" x="0.0" y="385" width="320" height="183"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Teams. 1 Winner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-2e-qan">
-                                        <rect key="frame" x="46" y="19" width="229" height="31"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Players. 1 Winner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-2e-qan">
+                                        <rect key="frame" x="46" y="19" width="229" height="32"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap as fast as you can to overthrow your opponent" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFh-he-cbW">
-                                        <rect key="frame" x="19" y="64" width="282" height="54"/>
+                                        <rect key="frame" x="19" y="65" width="282" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -720,21 +684,22 @@
                                     <constraint firstItem="PFh-he-cbW" firstAttribute="top" secondItem="aSf-2e-qan" secondAttribute="bottom" constant="14" id="w2n-1k-be8"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trophy" translatesAutoresizingMaskIntoConstraints="NO" id="2hD-cu-EEZ">
+                                <rect key="frame" x="32" y="60" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="WNd-DL-3l2"/>
+                                    <constraint firstAttribute="height" constant="256" id="jnF-Ml-MuN"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.31764705879999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fPM-1K-h6Z" firstAttribute="leading" secondItem="g0G-z7-GE7" secondAttribute="leading" id="2et-Ka-RtZ"/>
-                            <constraint firstItem="X2E-cc-Ev2" firstAttribute="top" secondItem="4dv-zm-97a" secondAttribute="top" id="AKi-tw-K4M"/>
-                            <constraint firstItem="X2E-cc-Ev2" firstAttribute="leading" secondItem="fPM-1K-h6Z" secondAttribute="leading" id="Cfi-pk-MqQ"/>
                             <constraint firstItem="g0G-z7-GE7" firstAttribute="top" secondItem="4dv-zm-97a" secondAttribute="top" constant="385" id="FSL-ac-QMH"/>
-                            <constraint firstAttribute="trailing" secondItem="X2E-cc-Ev2" secondAttribute="trailing" id="Iqo-GF-1JT"/>
-                            <constraint firstItem="IXV-uw-Mcb" firstAttribute="top" secondItem="fPM-1K-h6Z" secondAttribute="bottom" constant="182" id="Sgc-Y4-na3"/>
+                            <constraint firstItem="g0G-z7-GE7" firstAttribute="leading" secondItem="4dv-zm-97a" secondAttribute="leading" id="HXI-jX-eXh"/>
                             <constraint firstItem="g0G-z7-GE7" firstAttribute="bottom" secondItem="IXV-uw-Mcb" secondAttribute="top" id="T5A-T0-bAH"/>
-                            <constraint firstItem="X2E-cc-Ev2" firstAttribute="leading" secondItem="4dv-zm-97a" secondAttribute="leading" id="US5-VV-r9f"/>
-                            <constraint firstItem="X2E-cc-Ev2" firstAttribute="trailing" secondItem="fPM-1K-h6Z" secondAttribute="trailing" id="cdO-we-zDC"/>
-                            <constraint firstItem="fPM-1K-h6Z" firstAttribute="top" secondItem="X2E-cc-Ev2" secondAttribute="bottom" id="gTT-GH-ho1"/>
-                            <constraint firstItem="fPM-1K-h6Z" firstAttribute="top" secondItem="4dv-zm-97a" secondAttribute="top" constant="193" id="lyv-EM-21R"/>
-                            <constraint firstItem="fPM-1K-h6Z" firstAttribute="trailing" secondItem="g0G-z7-GE7" secondAttribute="trailing" id="qoe-NP-RL3"/>
+                            <constraint firstItem="2hD-cu-EEZ" firstAttribute="centerX" secondItem="g0G-z7-GE7" secondAttribute="centerX" id="j9m-dg-oND"/>
+                            <constraint firstAttribute="trailing" secondItem="g0G-z7-GE7" secondAttribute="trailing" id="l0T-uT-yJT"/>
+                            <constraint firstItem="2hD-cu-EEZ" firstAttribute="top" secondItem="5CC-na-qBv" secondAttribute="bottom" constant="40" id="r3W-Pi-VoE"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -758,13 +723,13 @@
                                 <rect key="frame" x="0.0" y="385" width="320" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customise!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFb-Hv-mFR">
-                                        <rect key="frame" x="46" y="19" width="229" height="31"/>
+                                        <rect key="frame" x="46" y="19" width="229" height="32"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to settings to adjust colours, win values and more" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttm-C3-UkN">
-                                        <rect key="frame" x="19" y="64" width="282" height="54"/>
+                                        <rect key="frame" x="19" y="65" width="282" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -799,7 +764,7 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings Cog (2)" translatesAutoresizingMaskIntoConstraints="NO" id="E0t-tq-Wmr">
-                                <rect key="frame" x="31.5" y="60" width="256" height="256"/>
+                                <rect key="frame" x="32" y="60" width="256" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="256" id="3bp-a5-555"/>
                                     <constraint firstAttribute="height" constant="256" id="O3A-sG-4bF"/>
@@ -837,13 +802,13 @@
                                 <rect key="frame" x="0.0" y="385" width="320" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready, set, go!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xv-V6-UpR">
-                                        <rect key="frame" x="46" y="19" width="229" height="31"/>
+                                        <rect key="frame" x="46" y="19" width="229" height="32"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're all set. Have fun playing. Let the races begin!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrd-q1-ozd">
-                                        <rect key="frame" x="19" y="64" width="282" height="54"/>
+                                        <rect key="frame" x="19" y="65" width="282" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -907,9 +872,10 @@
         <image name="Settings Cog (2)" width="256" height="256"/>
         <image name="Sound_State:Playing" width="700" height="700"/>
         <image name="Thumbs up" width="778" height="800"/>
+        <image name="Trophy" width="256" height="256"/>
         <image name="mountain" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pk2-GF-CSd"/>
+        <segue reference="BNj-DU-lRl"/>
     </inferredMetricsTieBreakers>
 </document>

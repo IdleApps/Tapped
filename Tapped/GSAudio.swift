@@ -75,7 +75,7 @@ class GSAudio: NSObject, AVAudioPlayerDelegate {
                     }
                     
                     
-                }
+                } 
                 
             } catch {
                 print("Could not play sound file!")
