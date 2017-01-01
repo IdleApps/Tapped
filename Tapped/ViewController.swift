@@ -24,7 +24,9 @@ class ViewController: UIViewController, GADBannerViewDelegate {
             return
         }
         
-        GSAudio.sharedInstance.playSound(soundFileName: "Soundtrack")
+        if musicIsStopped == true {
+            GSAudio.sharedInstance.playSound(soundFileName: "Soundtrack")
+        }
         
         if UserDefaults.standard.value(forKey: "team1BackgroundColour") as? String == nil {
             // No background colour for team 1 was found.
