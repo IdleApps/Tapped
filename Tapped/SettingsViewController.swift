@@ -27,6 +27,8 @@ class SettingsViewController: UIViewController, GADBannerViewDelegate {
 
         // Do any additional setup after loading the view.
         
+        dealWithSound()
+        
         if UserDefaults.standard.bool(forKey: "com.IdleApps.Tapped.RemovingAds") == true {
             print("User has purchased Remove Ads. Removing..")
             bannerViewAdvert.isHidden = true
@@ -365,7 +367,15 @@ class SettingsViewController: UIViewController, GADBannerViewDelegate {
     //YELLOW    team1BackgroundColour.backgroundColor = UIColor(red: 255, green: 255, blue: 102, alpha: 1)
     //PURPLE    team1BackgroundColour.backgroundColor = UIColor(red: 178, green: 102, blue: 255, alpha: 1)
     
-    
+    func dealWithSound() {
+        
+        if musicIsStopped == false {
+            soundState.setImage(UIImage(named: "Sound_State:Muted"), for: .normal)
+        } else {
+            soundState.setImage(UIImage(named: "Sound_State:Playing"), for: .normal)
+        }
+        
+    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         custonWinValueTextField.resignFirstResponder()

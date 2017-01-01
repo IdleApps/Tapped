@@ -21,7 +21,7 @@ class WinScreenViewController: UIViewController {
         
         after2Seconds = false
         
-        let seconds2 = DispatchTime.now() + 2.0
+        let seconds2 = DispatchTime.now() + 1.0
         DispatchQueue.main.asyncAfter(deadline: seconds2) {
             // Stops the user from dismissing the winner's screen until 2 seconds have passed.
             after2Seconds = true

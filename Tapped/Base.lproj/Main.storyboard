@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -23,7 +23,7 @@
         <!--View Controller-->
         <scene sceneID="7RE-4E-9eT">
             <objects>
-                <viewController storyboardIdentifier="Tutorial" id="Wp7-mj-FS5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tutorial" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wp7-mj-FS5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g7G-wg-J80"/>
                         <viewControllerLayoutGuide type="bottom" id="PD4-2L-UNq"/>
@@ -51,7 +51,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Compete with your friends to find out who the tap master is" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKf-11-IfI">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compete with your friends to find out who the tap master is" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKf-11-IfI">
                                         <rect key="frame" x="19" y="64" width="282" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,12 +76,13 @@
                                 <constraints>
                                     <constraint firstItem="Pey-wR-oGv" firstAttribute="leading" secondItem="dnC-3T-ak8" secondAttribute="leading" constant="46" id="2Ry-Eh-Ijc"/>
                                     <constraint firstItem="Pey-wR-oGv" firstAttribute="top" secondItem="dnC-3T-ak8" secondAttribute="top" constant="19" id="4Nz-qj-g5m"/>
-                                    <constraint firstItem="Pey-wR-oGv" firstAttribute="centerX" secondItem="MKf-11-IfI" secondAttribute="centerX" id="4RR-Rf-3Qr"/>
                                     <constraint firstAttribute="bottom" secondItem="SXw-ox-4k5" secondAttribute="bottom" constant="20" id="6kr-Jw-QgW"/>
-                                    <constraint firstItem="SXw-ox-4k5" firstAttribute="centerX" secondItem="MKf-11-IfI" secondAttribute="centerX" id="Tki-rP-IvQ"/>
+                                    <constraint firstItem="MKf-11-IfI" firstAttribute="leading" secondItem="dnC-3T-ak8" secondAttribute="leading" constant="19" id="KW8-mT-ROH"/>
+                                    <constraint firstItem="MKf-11-IfI" firstAttribute="centerX" secondItem="SXw-ox-4k5" secondAttribute="centerX" id="gjr-FW-eDl"/>
+                                    <constraint firstItem="MKf-11-IfI" firstAttribute="centerY" secondItem="dnC-3T-ak8" secondAttribute="centerY" id="ia0-hH-uR0"/>
+                                    <constraint firstItem="MKf-11-IfI" firstAttribute="top" secondItem="Pey-wR-oGv" secondAttribute="bottom" constant="14" id="iaW-bn-awL"/>
                                     <constraint firstItem="SXw-ox-4k5" firstAttribute="centerX" secondItem="dnC-3T-ak8" secondAttribute="centerX" id="mTf-nh-Ifx"/>
-                                    <constraint firstItem="MKf-11-IfI" firstAttribute="top" secondItem="Pey-wR-oGv" secondAttribute="bottom" constant="14" id="miy-a6-RQo"/>
-                                    <constraint firstItem="SXw-ox-4k5" firstAttribute="top" secondItem="MKf-11-IfI" secondAttribute="bottom" constant="15" id="s3N-4i-0Iy"/>
+                                    <constraint firstItem="MKf-11-IfI" firstAttribute="centerX" secondItem="Pey-wR-oGv" secondAttribute="centerX" id="q7K-yx-Riy"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -614,7 +615,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CPI-uJ-xfM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ruV-So-p3z">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ruV-So-p3z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -641,11 +642,39 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-cc-Ev2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFv-ka-bCb">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                                        <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="36"/>
+                                        <color key="textColor" red="0.389198899269104" green="0.48970896005630493" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.99948078393936157" green="0.48909413814544678" blue="0.41945236921310425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JFv-ka-bCb" firstAttribute="top" secondItem="X2E-cc-Ev2" secondAttribute="top" id="LNV-FQ-BLJ"/>
+                                    <constraint firstItem="JFv-ka-bCb" firstAttribute="leading" secondItem="X2E-cc-Ev2" secondAttribute="leading" id="RSa-kZ-o8L"/>
+                                    <constraint firstAttribute="bottom" secondItem="JFv-ka-bCb" secondAttribute="bottom" id="TUO-nk-icq"/>
+                                    <constraint firstAttribute="trailing" secondItem="JFv-ka-bCb" secondAttribute="trailing" id="rM1-OV-PPZ"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPM-1K-h6Z">
                                 <rect key="frame" x="0.0" y="193" width="320" height="193"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmH-kY-0Qg">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                                        <fontDescription key="fontDescription" name="GangofThree" family="Gang of Three" pointSize="36"/>
+                                        <color key="textColor" red="0.99948078393936157" green="0.48909413814544678" blue="0.41945236921310425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.389198899269104" green="0.48970896005630493" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="AmH-kY-0Qg" firstAttribute="leading" secondItem="fPM-1K-h6Z" secondAttribute="leading" id="1Fk-Aj-5pD"/>
+                                    <constraint firstItem="AmH-kY-0Qg" firstAttribute="top" secondItem="fPM-1K-h6Z" secondAttribute="top" id="KNt-mQ-Y05"/>
+                                    <constraint firstAttribute="trailing" secondItem="AmH-kY-0Qg" secondAttribute="trailing" id="V1f-GE-1oF"/>
+                                    <constraint firstAttribute="bottom" secondItem="AmH-kY-0Qg" secondAttribute="bottom" id="eWU-AW-MyF"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0G-z7-GE7">
                                 <rect key="frame" x="0.0" y="385" width="320" height="183"/>

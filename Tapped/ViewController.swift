@@ -13,32 +13,18 @@ import AVFoundation
 class ViewController: UIViewController, GADBannerViewDelegate {
 
     @IBOutlet var bannerViewAdvert: GADBannerView!
-    @IBOutlet var soundState: UIButton!
-    @IBOutlet var imageViewGif: UIImageView!
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if let hasFinishedTutorial = UserDefaults.standard.value(forKey: "hasFinishedTutorial") as? String {
-            
-            if hasFinishedTutorial == "true" {
-                GSAudio.sharedInstance.playSound(soundFileName: "Soundtrack")
-                print("true")
-            } else {
-                presentTutorialScreen()
-                print("false")
-            }
-            
+        if UserDefaults.standard.value(forKey: "hasFinishedTutorial") == nil {
+            print("The user has not yet looked at the tutorial screen. Presenting..")
+            self.perform(#selector(presentTutorialScreen), with: nil, afterDelay: 0)
+            return
         }
         
-        print("debug")
-
+        GSAudio.sharedInstance.playSound(soundFileName: "Soundtrack")
         
         if UserDefaults.standard.value(forKey: "team1BackgroundColour") as? String == nil {
             // No background colour for team 1 was found.
@@ -84,7 +70,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         
     }
     
-    func presentTutorialScreen() { // Shows the winners view controller.
+    func presentTutorialScreen() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "Tutorial") as UIViewController
         present(vc, animated: true)
